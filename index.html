@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index-style.css">
+    <title>S1</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mi pagina web</h1>
+        <p>Bienvenido a mi página web</p>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="pages/Proyectos.html">Proyectos</a>
+            <a href="pages/Contacto.html">Contacto</a>
+
+        </nav>
+    </header>
+    <main>
+        <section class="presentacion">
+            <h2>Sobre mí</h2>
+            <p>Soy desarrollador en formación con habilidades en frontend, backend, bases de datos y Git. Me apasiona crear interfaces modernas, optimizar procesos y aprender continuamente. Disfruto enfrentar nuevos desafíos, trabajar en equipo y aportar soluciones innovadoras que generen valor en cada proyecto de desarrollo en el que participo.
+            </p>
+            <a class="btn"></a>
+            <img src="img/Foto Retrato.jpeg">
+        </section>
+        <section class="habilidades">
+            <h2>Mis Habilidades</h2>
+            <p class="descripcion">
+                Estas son algunas de las áreas en las que tengo experiencia.
+            </p>
+            <div class="contenedor-cards">
+                <div class="card">
+                    <h3>Frontend</h3>
+                    <p>Experiencia en el diseño y desarrollo de interfaces web modernas utilizando HTML, CSS y JavaScript, complementadas con frameworks y librerías como Bootstrap, W3Schools, entre otras.</p>
+                </div>
+                <div class="card">
+                    <h3>Backend</h3>
+                    <p>Conocimientos en desarrollo backend con Python y Java, incluyendo la creación de aplicaciones, manejo básico de autenticación y despliegue inicial en entornos con contenedores.</p>
+                </div>
+                <div class="card">
+                    <h3>Base de datos</h3>
+                    <p>Manejo de bases de datos relacionales con MySQL, incluyendo diseño y modelado de esquemas, creación de tablas, consultas SQL, relaciones y uso de JOIN para análisis y procesamiento de datos.</p>
+                </div>
+                <div class="card">
+                    <h3>GitHub/Git</h3>
+                    <p>Conocimientos en control de versiones con Git y gestión de proyectos en GitHub, aplicando ramas, commits, pull requests y resolución de conflictos para mantener un flujo de trabajo colaborativo y eficiente.</p>
+                </div>
+            </div>
+        </section>
+        <section class="flip-section">
+            <h2>Certificados Obtenidos</h2>
+            <p>Aquí comparto algunos de los certificados que he obtenido a lo largo de mi aprendizaje. Cada uno refleja las metas alcanzadas y mi compromiso con seguir creciendo.</p>
+            <div class="flip-contenedor">
+                <!-- Cards -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Certificado en Python</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/Certificado.jpeg">
+                        </div> 
+                    </div>
+                </div>
+                <!-- Cards -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Certificado en Python</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="img/Certificado.jpeg">
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+     </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="footer-conctato">
+                <h3>Conctato</h3>
+                <p>Email: 1658909@senati.pe</p>
+                <p>Telefono: +51 955654841</p>
+                <p>Ubicacion: Ica, Perú</p>
+            </div>
+            <div class="footer-nav">
+                <h3>Navegacion</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedId</a></li>
+                    <li><a href="#">Github</a></li>
+                </ul>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2025 Leonardo Rojas Soller. Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Modal -->
+        <div id="imgModal" class="modal">
+            <span class="cerrar">&times;</span>
+            <img class="modal-contenedor" id="modalImg">
+        </div>
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
